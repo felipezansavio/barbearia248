@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbearia 248 — Corte &amp; Estilo em Meia Praia, Itapema</title>
+  <meta name="description" content="Barbearia 248 em Meia Praia, Itapema - SC. Corte de cabelo, barba e sobrancelha. Agende pelo WhatsApp (47) 99212-7796." />
+  <meta property="og:title" content="Barbearia 248 — Corte &amp; Estilo em Meia Praia" />
+  <meta property="og:description" content="Experiência premium de barbearia em Itapema - SC." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- WHATSAPP FLOAT -->
+<a class="wa-float" href="https://wa.me/5547992127796?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741 1.053 1.053-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884z"/>
+  </svg>
+</a>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">&times;</button>
+  <img class="lightbox-img" id="lightboxImg" src="" alt="Foto ampliada" />
+</div>
+
+<!-- NAVIGATION -->
+<nav id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#hero" aria-label="Barbearia 248 — início">
+        <span style="font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700;color:#C9A84C;letter-spacing:.04em;">Barbearia 248</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#diferenciais">Sobre</a></li>
+        <li><a href="#depoimentos">Avaliações</a></li>
+        <li><a href="#como-chegar">Localização</a></li>
+      </ul>
+      <a class="btn btn-gold nav-cta" href="https://wa.me/5547992127796?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">
+        Agendar
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#galeria">Galeria</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#diferenciais">Sobre</a>
+      <a href="#depoimentos">Avaliações</a>
+      <a href="#como-chegar">Localização</a>
+      <a class="btn btn-gold" href="https://wa.me/5547992127796?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741 1.053 1.053-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884z"/></svg>
+        Agendar agora
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-badge reveal">+800 clientes atendidos</div>
+        <h1 class="hero-title reveal d1">Estilo que<br><em>define</em> você</h1>
+        <p class="hero-sub reveal d2">Barbearia premium em Meia Praia, Itapema. Profissionais certificados, ambiente aconchegante e os melhores produtos do mercado.</p>
+        <div class="hero-actions reveal d3">
+          <a class="btn btn-gold" href="https://wa.me/5547992127796?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741 1.053 1.053-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884z"/></svg>
+            Agendar agora
+          </a>
+          <a class="btn btn-outline" href="#servicos">Ver serviços</a>
+        </div>
+        <div class="hero-stats reveal d4">
+          <div>
+            <div class="stat-num">800+</div>
+            <div class="stat-lbl">Clientes</div>
+          </div>
+          <div>
+            <div class="stat-num">4.9★</div>
+            <div class="stat-lbl">Google</div>
+          </div>
+          <div>
+            <div class="stat-num">3+</div>
+            <div class="stat-lbl">Anos</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal d2">
+        <div class="hero-photo">
+          <img src="images/hero.jpg" alt="Profissional da Barbearia 248 em ação" loading="eager" />
+        </div>
+        <div class="float-card">
+          <div class="float-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div>
+            <div class="float-lbl">Avaliação</div>
+            <div class="float-val">4.9 no Google</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria">
+  <div class="container">
+    <div class="galeria-header reveal">
+      <span class="eyebrow">Nosso trabalho</span>
+      <h2 class="section-title">Galeria de cortes</h2>
+      <p class="section-sub">Cada corte é único. Confira alguns dos nossos trabalhos e inspire-se para o seu próximo visual.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal d1">
+        <img src="images/galeria-1.jpg" alt="Corte de cabelo" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal d2">
+        <img src="images/galeria-2.jpg" alt="Barba feita na Barbearia 248" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal d3">
+        <img src="images/galeria-3.jpg" alt="Corte degradê" loading="lazy" />
+      </div>
+      <div class="gallery-item reveal d4">
+        <img src="images/galeria-4.jpg" alt="Combo completo" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="dark-stripe">
+  <div class="container">
+    <div class="servicos-header reveal">
+      <span class="eyebrow">O que fazemos</span>
+      <h2 class="section-title">Nossos serviços</h2>
+      <p class="section-sub">Cada detalhe importa. Serviços pensados para realçar o melhor de cada cliente.</p>
+    </div>
+    <div class="servicos-grid">
+
+      <!-- Corte -->
+      <div class="card-svc reveal d1">
+        <div class="svc-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8">
+            <path d="M6 9l6 6 6-6"/>
+            <circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/>
+            <path d="M6 8v10M18 8v10"/>
+          </svg>
+        </div>
+        <div class="svc-nome">Corte de Cabelo</div>
+        <p class="svc-desc">Corte preciso e personalizado, moldado ao formato do seu rosto e ao seu estilo de vida.</p>
+        <div class="svc-preco"><small>a partir de</small>R$ 55,00</div>
+      </div>
+
+      <!-- Barba -->
+      <div class="card-svc reveal d2">
+        <div class="svc-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8">
+            <path d="M3 7c0 5.523 4.477 10 10 10s10-4.477 10-10"/>
+            <path d="M8 7v4m8-4v4"/>
+          </svg>
+        </div>
+        <div class="svc-nome">Barba</div>
+        <p class="svc-desc">Modelagem e acabamento com navalha, toalha quente e produtos hidratantes de primeira linha.</p>
+        <div class="svc-preco"><small>a partir de</small>R$ 30,00</div>
+      </div>
+
+      <!-- Sobrancelha -->
+      <div class="card-svc reveal d3">
+        <div class="svc-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8">
+            <path d="M3 10 Q12 4 21 10"/>
+            <path d="M3 14 Q12 8 21 14"/>
+          </svg>
+        </div>
+        <div class="svc-nome">Sobrancelha</div>
+        <p class="svc-desc">Design e definição para sobrancelhas bem cuidadas que completam a harmonia do visual masculino.</p>
+        <div class="svc-preco"><small>a partir de</small>R$ 15,00</div>
+      </div>
+
+      <!-- Combo -->
+      <div class="card-svc destaque reveal d4">
+        <span class="badge-combo">Mais popular</span>
+        <div class="svc-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </div>
+        <div class="svc-nome">Combo Completo</div>
+        <p class="svc-desc">Corte + Barba + Sobrancelha. O pacote completo para você sair impecável da cabeça aos ombros.</p>
+        <div class="svc-preco"><small>tudo por</small>R$ 90,00</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section id="diferenciais">
+  <div class="container">
+    <div class="dif-inner">
+      <div class="reveal">
+        <div class="dif-photo">
+          <img src="images/diferenciais.jpg" alt="Ambiente da Barbearia 248" loading="lazy" />
+        </div>
+      </div>
+      <div>
+        <div class="reveal">
+          <span class="eyebrow">Por que nos escolher</span>
+          <h2 class="section-title">A experiência <em>248</em></h2>
+          <div class="gold-line"></div>
+        </div>
+        <div class="dif-list">
+          <div class="dif-item reveal d1">
+            <div class="dif-num">01</div>
+            <div class="dif-content">
+              <h3>Profissionais Certificados</h3>
+              <p>Equipe treinada nas técnicas mais modernas do mercado, sempre atualizada com as tendências.</p>
+            </div>
+          </div>
+          <div class="dif-item reveal d2">
+            <div class="dif-num">02</div>
+            <div class="dif-content">
+              <h3>Produtos Premium</h3>
+              <p>Utilizamos apenas produtos de primeira linha que respeitam e cuidam do seu cabelo e pele.</p>
+            </div>
+          </div>
+          <div class="dif-item reveal d3">
+            <div class="dif-num">03</div>
+            <div class="dif-content">
+              <h3>Ambiente Aconchegante</h3>
+              <p>Espaço pensado para você relaxar e sair renovado. Conforto e sofisticação em cada detalhe.</p>
+            </div>
+          </div>
+          <div class="dif-item reveal d4">
+            <div class="dif-num">04</div>
+            <div class="dif-content">
+              <h3>Agendamento Fácil</h3>
+              <p>Reserve seu horário pelo WhatsApp em segundos. Sem filas, sem espera desnecessária.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section id="depoimentos" class="dark-stripe" style="position:relative">
+  <div class="container">
+    <div class="dep-header reveal">
+      <div class="g-rating">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        4.9 no Google
+      </div>
+      <h2 class="section-title">O que nossos clientes dizem</h2>
+      <p class="section-sub" style="margin:0 auto">Satisfação garantida em cada atendimento.</p>
+    </div>
+
+    <div class="carousel-wrap reveal">
+      <div class="carousel-track" id="carouselTrack">
+
+        <div class="dep-card active">
+          <div class="dep-stars">★★★★★</div>
+          <p class="dep-txt">Muito bom trabalho que os dois profissionais realizam. Corto meu cabelo só com eles. Ótimo atendimento e preço justo — recomendo demais!</p>
+          <div class="dep-autor">
+            <div class="dep-avatar">JB</div>
+            <div>
+              <div class="dep-nome">João A. Burkhard</div>
+              <div class="dep-via">Google · Local Guide · Itapema</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dep-card">
+          <div class="dep-stars">★★★★★</div>
+          <p class="dep-txt">Excelente atendimento, Juliano ótimo profissional! Conversa boa, ambiente agradável! Indico sempre — melhor barbearia da região!</p>
+          <div class="dep-autor">
+            <div class="dep-avatar">MS</div>
+            <div>
+              <div class="dep-nome">Michael Sturm</div>
+              <div class="dep-via">Google · Local Guide</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dep-card">
+          <div class="dep-stars">★★★★★</div>
+          <p class="dep-txt">Melhor barbeiro de Itapema e região, com o melhor atendimento. Não troco por nenhuma outra barbearia da cidade. Qualidade top!</p>
+          <div class="dep-autor">
+            <div class="dep-avatar">GA</div>
+            <div>
+              <div class="dep-nome">Gabriel Almada</div>
+              <div class="dep-via">Google · Itapema</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dep-card">
+          <div class="dep-stars">★★★★★</div>
+          <p class="dep-txt">Sensacional! Além de serem meus amigos, o trabalho que entregam aqui é de altíssimo nível. O corte é impecável, o ambiente é muito bacana e o atendimento é diferenciado. Sucesso sempre!</p>
+          <div class="dep-autor">
+            <div class="dep-avatar">HP</div>
+            <div>
+              <div class="dep-nome">Higor Paixão</div>
+              <div class="dep-via">Google · Nova avaliação</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dep-card">
+          <div class="dep-stars">★★★★★</div>
+          <p class="dep-txt">Ótimo atendimento, recomendo muito! O ambiente é muito agradável e os profissionais são extremamente atenciosos. Voltarei com certeza.</p>
+          <div class="dep-autor">
+            <div class="dep-avatar">AR</div>
+            <div>
+              <div class="dep-nome">Augusto R. Daleski de Lima</div>
+              <div class="dep-via">Google · Local Guide</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dep-card">
+          <div class="dep-stars">★★★★★</div>
+          <p class="dep-txt">Fiz o Combo e valeu cada centavo. Corte, barba e sobrancelha em um atendimento só, com resultado de alto nível. Agendamento via WhatsApp super prático!</p>
+          <div class="dep-autor">
+            <div class="dep-avatar">CA</div>
+            <div>
+              <div class="dep-nome">Cauã F.</div>
+              <div class="dep-via">Google · Meia Praia</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="carousel-controls reveal">
+      <button class="carousel-btn" id="prevBtn" aria-label="Anterior">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="carousel-dots" id="carouselDots"></div>
+      <button class="carousel-btn" id="nextBtn" aria-label="Próximo">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- COMO CHEGAR -->
+<section id="como-chegar">
+  <div class="container">
+    <div class="chegar-inner">
+      <div class="chegar-info">
+        <div class="reveal">
+          <span class="eyebrow">Localização</span>
+          <h2 class="section-title">Como <em style="font-style:italic;color:var(--gold)">chegar</em></h2>
+          <div class="gold-line"></div>
+        </div>
+
+        <div class="info-block reveal d1">
+          <div class="info-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div>
+            <div class="info-label">Endereço</div>
+            <div class="info-value"><strong>R. 248, 411</strong><br>Meia Praia — Itapema, SC<br>CEP 88220-000</div>
+          </div>
+        </div>
+
+        <div class="info-block reveal d2">
+          <div class="info-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div>
+            <div class="info-label">Horários de funcionamento</div>
+            <div class="info-value">
+              <strong>Segunda a Sexta</strong> — 09h às 19h<br>
+              <strong>Sábado</strong> — 09h às 14h<br>
+              <strong>Domingo</strong> — Fechado
+            </div>
+          </div>
+        </div>
+
+        <div class="info-block reveal d3">
+          <div class="info-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.82 19.79 19.79 0 01.91 2.18 2 2 0 012.91 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+            </svg>
+          </div>
+          <div>
+            <div class="info-label">WhatsApp</div>
+            <div class="info-value"><strong>(47) 99212-7796</strong></div>
+          </div>
+        </div>
+
+        <div class="reveal d4">
+          <a class="btn btn-gold btn-maps" href="https://www.google.com/maps/search/?api=1&query=R.+248,+411,+Meia+Praia,+Itapema,+SC" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Abrir no Google Maps
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal d2">
+        <div class="map-container">
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-48.6220%2C-26.9130%2C-48.6070%2C-26.8990&layer=mapnik&marker=-26.9068%2C-48.6147"
+            width="100%" height="100%"
+            style="border:0;width:100%;height:100%;"
+            title="Localização Barbearia 248 — Meia Praia, Itapema SC"
+            loading="lazy" allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section id="cta">
+  <div class="container">
+    <div class="cta-inner">
+      <div class="reveal">
+        <span class="eyebrow">Vamos nessa</span>
+        <h2 class="cta-title">Pronto para o melhor<br><em>visual da sua vida?</em></h2>
+        <p class="cta-sub">Reserve o seu horário agora mesmo pelo WhatsApp. É rápido, fácil e sem complicação.</p>
+      </div>
+      <div class="reveal d1">
+        <a class="btn btn-gold cta-btn" href="https://wa.me/5547992127796?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741 1.053 1.053-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884z"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+      </div>
+      <div class="cta-info reveal d2">
+        <div class="cta-info-block">
+          <div class="label">Horários</div>
+          <div class="value">
+            <strong>Seg – Sex</strong> 09h às 19h<br>
+            <strong>Sábado</strong> 09h às 14h<br>
+            <strong>Domingo</strong> Fechado
+          </div>
+        </div>
+        <div class="cta-divider"></div>
+        <div class="cta-info-block">
+          <div class="label">Endereço</div>
+          <div class="value"><strong>R. 248, 411</strong><br>Meia Praia — Itapema, SC</div>
+        </div>
+        <div class="cta-divider"></div>
+        <div class="cta-info-block">
+          <div class="label">WhatsApp</div>
+          <div class="value">
+            <strong>(47) 99212-7796</strong><br>
+            <a href="https://wa.me/5547992127796" target="_blank" rel="noopener" style="color:var(--gold);font-size:.82rem">Enviar mensagem →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <a href="#hero" class="footer-logo">Barbearia 248</a>
+      <ul class="footer-links">
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#diferenciais">Sobre</a></li>
+        <li><a href="#depoimentos">Avaliações</a></li>
+        <li><a href="#como-chegar">Localização</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Barbearia 248. Todos os direitos reservados.</p>
+      <p class="footer-addr">R. 248, 411 · Meia Praia · Itapema, SC</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="800" viewBox="0 0 900 800">
+  <rect width="900" height="800" fill="#1C1A16"/>
+  <rect x="1" y="1" width="898" height="798" fill="none" stroke="#C9A84C" stroke-width="1" stroke-opacity=".3"/>
+  <text x="450" y="360" font-family="Georgia,serif" font-size="28" fill="#C9A84C" text-anchor="middle" opacity=".6">Foto do Profissional</text>
+  <text x="450" y="400" font-family="Georgia,serif" font-size="16" fill="#5C5448" text-anchor="middle">hero.jpg — substituir pela foto real</text>
+  <circle cx="450" cy="260" r="60" fill="none" stroke="#C9A84C" stroke-width="1.5" opacity=".3"/>
+  <line x1="430" y1="260" x2="470" y2="260" stroke="#C9A84C" stroke-width="1.5" opacity=".4"/>
+  <line x1="450" y1="240" x2="450" y2="280" stroke="#C9A84C" stroke-width="1.5" opacity=".4"/>
+</svg>

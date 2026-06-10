@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="533" viewBox="0 0 400 533">
+  <rect width="400" height="533" fill="#1C1A16"/>
+  <rect x="1" y="1" width="398" height="531" fill="none" stroke="#C9A84C" stroke-width="1" stroke-opacity=".3"/>
+  <text x="200" y="250" font-family="Georgia,serif" font-size="18" fill="#C9A84C" text-anchor="middle" opacity=".6">Foto 2</text>
+  <text x="200" y="280" font-family="sans-serif" font-size="12" fill="#5C5448" text-anchor="middle">galeria-2.jpg</text>
+</svg>
