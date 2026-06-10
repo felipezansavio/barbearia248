@@ -499,7 +499,7 @@ section.dark-stripe::after  { bottom: 0; }
 ═══════════════════════════════════════════════ */
 #footer { background: var(--bg-surface); border-top: 1px solid var(--gold-border); padding: 44px 0 28px; }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; margin-bottom: 28px; }
-.footer-logo { font-family: var(--font-d); font-size: 1.3rem; font-weight: 700; color: var(--gold); }
+.footer-logo-img { height: 38px; width: auto; max-width: 180px; object-fit: contain; }
 .footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
 .footer-links a { font-size: .74rem; text-transform: uppercase; letter-spacing: .1em; color: var(--text-3); transition: color var(--ease); }
 .footer-links a:hover { color: var(--gold); }
