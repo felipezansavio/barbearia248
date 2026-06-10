@@ -1,4 +1,35 @@
 /* ═══════════════════════════════════════════════
+   REMOVE FUNDO BRANCO DA LOGO (canvas)
+═══════════════════════════════════════════════ */
+function removeWhiteBg(imgEl, threshold = 230) {
+  const canvas = document.createElement('canvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = imgEl.naturalWidth;
+  canvas.height = imgEl.naturalHeight;
+  ctx.drawImage(imgEl, 0, 0);
+  try {
+    const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    const data = imageData.data;
+    for (let i = 0; i < data.length; i += 4) {
+      const r = data[i], g = data[i + 1], b = data[i + 2];
+      if (r > threshold && g > threshold && b > threshold) {
+        data[i + 3] = 0;
+      }
+    }
+    ctx.putImageData(imageData, 0, 0);
+    imgEl.src = canvas.toDataURL('image/png');
+  } catch (e) {}
+}
+
+document.querySelectorAll('.nav-logo-img, .footer-logo-img').forEach(img => {
+  if (img.complete && img.naturalWidth) {
+    removeWhiteBg(img);
+  } else {
+    img.addEventListener('load', () => removeWhiteBg(img));
+  }
+});
+
+/* ═══════════════════════════════════════════════
    NAVIGATION
 ═══════════════════════════════════════════════ */
 const nav       = document.getElementById('nav');
