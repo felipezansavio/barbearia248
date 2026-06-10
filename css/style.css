@@ -97,10 +97,10 @@ section.dark-stripe::after  { bottom: 0; }
 }
 .nav-inner {
   display: flex; align-items: center;
-  justify-content: space-between; height: 68px;
+  justify-content: space-between; height: 96px;
 }
 .nav-logo-img {
-  height: 68px; width: auto; max-width: 280px;
+  height: 90px; width: auto; max-width: 360px;
   object-fit: contain; display: block;
 }
 .nav-links { display: flex; align-items: center; gap: 28px; }
